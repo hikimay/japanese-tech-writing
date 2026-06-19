@@ -3,14 +3,7 @@
 生成 AI に日本語の技術文書（書籍の章、技術記事、解説文）を書かせる／推敲させるときに、文章の質を制御する [Claude Code](https://claude.com/claude-code) スキルです。
 論理が通っているように見えて中身のない「AI 特有の言い回し」を抑え、論証の筋が通った技術文章を生成します。
 
-## 由来と先行スキル
-
-このスキルは、二つの先行する取り組みに基づいています。
-
-- 文章規範の本体は、k16shikano 氏の「日本語技術文書の文章規範」に基づきます（[gist](https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d)）。観点 1〜8 の骨格はこの規範を技術文書向けに整理したものです。
-- AI 臭の語彙リスト（[reference/ng-vocab.md](reference/ng-vocab.md)）は、iKora128 / Daichi Nagashima 氏の「[stop-ai-slop-jp](https://github.com/iKora128/stop-ai-slop-jp)」（MIT License）の語彙を、技術文書向けに取捨選択・改変したものです。
-
-本スキルは、これらを Claude Code のスキル形式にまとめ、生成・推敲・採点の手順を加えたものです。
+文章規範の本体は、k16shikano 氏の「日本語技術文書の文章規範」（[gist](https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d)）に基づきます。観点 1〜8 の骨格は、この規範を技術文書向けに整理したものです。AI 臭の語彙リスト（[reference/ng-vocab.md](reference/ng-vocab.md)）は、iKora128 / Daichi Nagashima 氏の「[stop-ai-slop-jp](https://github.com/iKora128/stop-ai-slop-jp)」（MIT License）の語彙を技術文書向けに取捨選択・改変しました。本スキルは、これらを Claude Code のスキル形式にまとめ、生成・推敲・採点の手順を加えたものです。
 
 ## 制御する観点
 
