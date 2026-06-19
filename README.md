@@ -44,6 +44,15 @@ git clone https://github.com/hikimay/japanese-tech-writing.git \
 
 技術文書に特化し、論証の厳密さ（正確な因果・定義、必要な不確実性の保持）を最優先します。随筆やブログなど一般的な日本語文にも、ここでの規範をそのまま適用できます。
 
+## 由来と先行スキル
+
+このスキルは、二つの先行する取り組みに基づいています。
+
+- 文章規範の本体は、k16shikano 氏の「日本語技術文書の文章規範」に基づきます（[gist](https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d)）。観点 1〜8 の骨格はこの規範を技術文書向けに整理したものです。
+- AI 臭の語彙リスト（[reference/ng-vocab.md](reference/ng-vocab.md)）は、iKora128 / Daichi Nagashima 氏の「[stop-ai-slop-jp](https://github.com/iKora128/stop-ai-slop-jp)」（MIT License）の語彙を、技術文書向けに取捨選択・改変したものです。
+
+本スキルは、これらを Claude Code のスキル形式にまとめ、生成・推敲・採点の手順を加えたものです。
+
 ## ライセンス
 
 MIT License。詳細は [LICENSE](LICENSE) を参照してください。
