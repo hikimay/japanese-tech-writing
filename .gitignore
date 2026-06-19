@@ -1,0 +1,6 @@
+# Claude Code のローカル設定（マシン固有のため公開しない）
+.claude/
+
+# OS / エディタ
+.DS_Store
+*.swp
